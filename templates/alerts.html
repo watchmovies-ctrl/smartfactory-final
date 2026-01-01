@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Alerts{% endblock %}{% block content %}<div class="glass-card"><h3>System Alerts</h3>{% for a in alerts %}<div>{{ a.message }} - {{ a.severity }}</div>{% endfor %}</div>{% endblock %}

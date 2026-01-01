@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Analytics{% endblock %}{% block content %}<div class="glass-card"><h3>Rankings</h3>{% for r in rankings %}<div>{{ loop.index }}. {{ r.name }} - {{ r.avg_eff }}%</div>{% endfor %}</div>{% endblock %}
